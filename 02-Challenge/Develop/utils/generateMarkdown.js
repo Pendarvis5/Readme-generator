@@ -18,7 +18,7 @@ function generateMarkdown(data) {
   return `# ${data.title}
 
   ## Table of Contents
-  ${data.tableOfContents}
+  
   * [Project Description](#Description)
   * [Usage](#Usage)
   * [Contributing](#Contributing)
@@ -42,9 +42,10 @@ function generateMarkdown(data) {
   ${data.license}
 
   ## Questions
-  ${github}
+  To reach this user with any additional questions:
+  ${data.github}
 
-  ${Email}
+  ${data.email}
   
   
   
